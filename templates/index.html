@@ -1,8 +1,9 @@
 {% extends 'base.html' %}
-
+{% load static %}
 
 {% block contenido %}
     <h1>PAGINA DE INICIO</h1>
     <P>Datos de la nueva página que extiende el base.html</P>
+    <img src="{% static 'img/computer-engineering.jpg' %}" alt="">
 {% endblock contenido %}
     
