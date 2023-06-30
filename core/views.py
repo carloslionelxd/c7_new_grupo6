@@ -7,3 +7,7 @@ def indexView(request):
     
 def publicacionesView(request):
     return render(request, 'publicaciones.html', {})
+
+def sobrenosotrosView(request):
+    return render(request, 'sobrenosotros.html', {})
+
