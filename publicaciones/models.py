@@ -10,7 +10,7 @@ actualizacion: fecha y hora automática de actualización.
 El modelo Categoria debe ordenarse por el campo nombre.
 Sobre escribir el método __str__ para que retorne el campo nombre.'''
 
-class Categorias(models.Model):
+class Categoría(models.Model):
     nombre = models.CharField(max_length = 200)
     activo = models.BooleanField(default = True)
     creado = models.DateField(auto_now_add = True)
